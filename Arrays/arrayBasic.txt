@@ -1,0 +1,20 @@
+Ways to declare-
+- int arr[100]
+
+- int arr[n]
+
+- int *arr = new int[n]
+
+int arr[n]: Allocated on the stack.
+int *arr = new int[n]: Allocated on the heap.
+
+
+int arr[] = {1,2,3,4}
+
+
+Vectors- 
+Dynamic Size
+
+vector<int> v;
+vector<int> v(size,0);
+
